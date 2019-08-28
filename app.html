@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Burger-App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="burger.css">
+
+</head>
+
+<body>
+    <header class="container-fluid ">
+        <div class="row  bg-dark">
+            <div class="navbar-brand ">
+                <h1 class="text-light display-1"> Burger-App </h1>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+
+
+        <div class="m-5 text-center">
+            <h1>Customize Your Burger</h1>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+
+
+                <div class="col">
+                    <section>
+                        <div class="box" id="topDiv">
+                            <div class="bread-top" >
+                                <div class="seeds"></div>
+                                <div class="seeds2"></div>
+                            </div>
+                            
+                           
+
+
+<!-- .......................yAHA Items add Hoinge ...................... -->
+                            
+                        
+                            <div class="bread-bottom" id="itemSlot"></div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col">
+                    <!-- Customizer -->
+                    <div>
+                        <div class="m-3">
+                            <span>Cheese</span><br>
+                            <button  id="addCheese" onclick="addItem(this)">+</button>
+                            <button id="remCheese" onclick="removeItem(this)">-</button>
+                        </div>
+
+                        <div class="m-3">
+                            <span>Salad</span><br>
+                            <button id="addSalad" onclick="addItem(this)">+</button>
+                            <button id="remSalad" onclick="removeItem(this)">-</button>
+                        </div>
+
+                        <div class="m-3">
+                            <span>Aloo Tikiya</span><br>
+                            <button id="addTikiya" onclick="addItem(this)">+</button>
+                            <button id="remTikiya" onclick="removeItem(this)">-</button>
+                        </div>
+
+                        <div class="m-3">
+                            <span>chips</span><br>
+                            <button id="addChips" onclick="addItem(this)">+</button>
+                            <button id="remChips" onclick="removeItem(this)">-</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
